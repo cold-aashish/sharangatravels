@@ -1,0 +1,18 @@
+.banner{
+    &--custom{
+        &--text{
+            width: 50%;
+            text-align: center;
+            transform: translateX(50%);
+        }
+        &--buttons{
+            &_wrapper{
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                justify-content: center;
+                transform: translateY(30px);
+            }
+        }
+    }
+}

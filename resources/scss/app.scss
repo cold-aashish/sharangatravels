@@ -1,0 +1,108 @@
+/* ========================
+   1. CORE (MUST BE FIRST)
+======================== */
+@import "../scss/default/variables";
+@import "../scss/default/typography";
+@import "../scss/default/mixins";
+
+
+/* ========================
+   PLUGIN CSS
+======================== */
+@import "../css/plugins/swiper.min.css";
+@import "../css/vendor/bootstrap.min.css";
+@import "../css/vendor/animate.css";
+@import "../fonts/custom-font.css";
+
+@import "../css/plugins/magnific-popup.css";
+@import "../css/plugins/metismenu.css";
+@import "../css/plugins/odometer.css";
+@import "../css/plugins/fontawesome.min.css";
+@import "../css/plugins/nice-select.css";
+
+/* ========================
+   2. BASE
+======================== */
+@import "../scss/default/spacing";
+@import "../scss/default/reset";
+@import "../scss/default/animations";
+@import "../scss/default/forms";
+@import "../scss/default/shortcode";
+@import "../scss/default/text-animation";
+@import "../scss/default/sal";
+
+
+/* ========================
+   3. HEADER
+======================== */
+@import "../scss/header/nav";
+@import "../scss/header/mobile-menu";
+@import "../scss/header/header";
+
+/* ========================
+   4. ELEMENTS / COMPONENTS
+======================== */
+@import "../scss/elements/common";
+@import "../scss/elements/button";
+@import "../scss/elements/heading";
+
+@import "../scss/elements/banner";
+@import "../scss/elements/breadcrumb";
+@import "../scss/elements/about";
+@import "../scss/elements/service";
+@import "../scss/elements/why-choose";
+@import "../scss/elements/working-process";
+
+@import "../scss/elements/destination";
+@import "../scss/elements/package";
+@import "../scss/elements/trip";
+@import "../scss/elements/appoinment";
+@import "../scss/elements/team";
+
+@import "../scss/elements/blog";
+@import "../scss/elements/blog-inner";
+@import "../scss/elements/case-studies";
+
+@import "../scss/elements/contact";
+@import "../scss/elements/faq";
+@import "../scss/elements/marquee";
+
+@import "../scss/elements/testimonials";
+@import "../scss/elements/gallery";
+@import "../scss/elements/video";
+
+@import "../scss/elements/cta";
+@import "../scss/elements/brand";
+@import "../scss/elements/pricing";
+@import "../scss/elements/product";
+
+@import "../scss/elements/counterup";
+@import "../scss/elements/subscribe";
+@import "../scss/elements/social";
+@import "../scss/elements/back-to-top";
+
+
+/* ========================
+   5. FOOTER
+======================== */
+@import "../scss/elements/footer";
+
+/* ========================
+   6. RESPONSIVE (LAST)
+======================== */
+@import "../scss/elements/responsive";
+@import "../scss/elements/responsive-rtl";
+@import "../scss/elements/rtl";
+
+
+
+
+@import "../scss/default/custom-scss";
+/* ========================
+   7. REMOVE DUPLICATES ❌
+======================== */
+/* DELETE THESE FILES:
+   - blog copy
+   - responsive copy
+   - back-t0-top / back-t-top (keep only one)
+*/
